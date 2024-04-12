@@ -1,0 +1,1062 @@
+2024-04-12 08:16:54,525 Progressive Transformers for End-to-End SLP
+2024-04-12 08:16:54,527 Total params: 15427584
+2024-04-12 08:16:54,528 Trainable parameters: ['decoder.layer_norm.bias', 'decoder.layer_norm.weight', 'decoder.layers.0.dec_layer_norm.bias', 'decoder.layers.0.dec_layer_norm.weight', 'decoder.layers.0.feed_forward.layer_norm.bias', 'decoder.layers.0.feed_forward.layer_norm.weight', 'decoder.layers.0.feed_forward.pwff_layer.0.bias', 'decoder.layers.0.feed_forward.pwff_layer.0.weight', 'decoder.layers.0.feed_forward.pwff_layer.3.bias', 'decoder.layers.0.feed_forward.pwff_layer.3.weight', 'decoder.layers.0.src_trg_att.k_layer.bias', 'decoder.layers.0.src_trg_att.k_layer.weight', 'decoder.layers.0.src_trg_att.output_layer.bias', 'decoder.layers.0.src_trg_att.output_layer.weight', 'decoder.layers.0.src_trg_att.q_layer.bias', 'decoder.layers.0.src_trg_att.q_layer.weight', 'decoder.layers.0.src_trg_att.v_layer.bias', 'decoder.layers.0.src_trg_att.v_layer.weight', 'decoder.layers.0.trg_trg_att.k_layer.bias', 'decoder.layers.0.trg_trg_att.k_layer.weight', 'decoder.layers.0.trg_trg_att.output_layer.bias', 'decoder.layers.0.trg_trg_att.output_layer.weight', 'decoder.layers.0.trg_trg_att.q_layer.bias', 'decoder.layers.0.trg_trg_att.q_layer.weight', 'decoder.layers.0.trg_trg_att.v_layer.bias', 'decoder.layers.0.trg_trg_att.v_layer.weight', 'decoder.layers.0.x_layer_norm.bias', 'decoder.layers.0.x_layer_norm.weight', 'decoder.layers.1.dec_layer_norm.bias', 'decoder.layers.1.dec_layer_norm.weight', 'decoder.layers.1.feed_forward.layer_norm.bias', 'decoder.layers.1.feed_forward.layer_norm.weight', 'decoder.layers.1.feed_forward.pwff_layer.0.bias', 'decoder.layers.1.feed_forward.pwff_layer.0.weight', 'decoder.layers.1.feed_forward.pwff_layer.3.bias', 'decoder.layers.1.feed_forward.pwff_layer.3.weight', 'decoder.layers.1.src_trg_att.k_layer.bias', 'decoder.layers.1.src_trg_att.k_layer.weight', 'decoder.layers.1.src_trg_att.output_layer.bias', 'decoder.layers.1.src_trg_att.output_layer.weight', 'decoder.layers.1.src_trg_att.q_layer.bias', 'decoder.layers.1.src_trg_att.q_layer.weight', 'decoder.layers.1.src_trg_att.v_layer.bias', 'decoder.layers.1.src_trg_att.v_layer.weight', 'decoder.layers.1.trg_trg_att.k_layer.bias', 'decoder.layers.1.trg_trg_att.k_layer.weight', 'decoder.layers.1.trg_trg_att.output_layer.bias', 'decoder.layers.1.trg_trg_att.output_layer.weight', 'decoder.layers.1.trg_trg_att.q_layer.bias', 'decoder.layers.1.trg_trg_att.q_layer.weight', 'decoder.layers.1.trg_trg_att.v_layer.bias', 'decoder.layers.1.trg_trg_att.v_layer.weight', 'decoder.layers.1.x_layer_norm.bias', 'decoder.layers.1.x_layer_norm.weight', 'decoder.output_layer.weight', 'encoder.layer_norm.bias', 'encoder.layer_norm.weight', 'encoder.layers.0.feed_forward.layer_norm.bias', 'encoder.layers.0.feed_forward.layer_norm.weight', 'encoder.layers.0.feed_forward.pwff_layer.0.bias', 'encoder.layers.0.feed_forward.pwff_layer.0.weight', 'encoder.layers.0.feed_forward.pwff_layer.3.bias', 'encoder.layers.0.feed_forward.pwff_layer.3.weight', 'encoder.layers.0.layer_norm.bias', 'encoder.layers.0.layer_norm.weight', 'encoder.layers.0.src_src_att.k_layer.bias', 'encoder.layers.0.src_src_att.k_layer.weight', 'encoder.layers.0.src_src_att.output_layer.bias', 'encoder.layers.0.src_src_att.output_layer.weight', 'encoder.layers.0.src_src_att.q_layer.bias', 'encoder.layers.0.src_src_att.q_layer.weight', 'encoder.layers.0.src_src_att.v_layer.bias', 'encoder.layers.0.src_src_att.v_layer.weight', 'encoder.layers.1.feed_forward.layer_norm.bias', 'encoder.layers.1.feed_forward.layer_norm.weight', 'encoder.layers.1.feed_forward.pwff_layer.0.bias', 'encoder.layers.1.feed_forward.pwff_layer.0.weight', 'encoder.layers.1.feed_forward.pwff_layer.3.bias', 'encoder.layers.1.feed_forward.pwff_layer.3.weight', 'encoder.layers.1.layer_norm.bias', 'encoder.layers.1.layer_norm.weight', 'encoder.layers.1.src_src_att.k_layer.bias', 'encoder.layers.1.src_src_att.k_layer.weight', 'encoder.layers.1.src_src_att.output_layer.bias', 'encoder.layers.1.src_src_att.output_layer.weight', 'encoder.layers.1.src_src_att.q_layer.bias', 'encoder.layers.1.src_src_att.q_layer.weight', 'encoder.layers.1.src_src_att.v_layer.bias', 'encoder.layers.1.src_src_att.v_layer.weight', 'src_embed.lut.weight', 'trg_embed.bias', 'trg_embed.weight']
+2024-04-12 08:16:55,086 cfg.data.src                       : gloss
+2024-04-12 08:16:55,086 cfg.data.trg                       : skels
+2024-04-12 08:16:55,086 cfg.data.files                     : files
+2024-04-12 08:16:55,086 cfg.data.train                     : ./Data/tmp/train
+2024-04-12 08:16:55,086 cfg.data.dev                       : ./Data/tmp/dev
+2024-04-12 08:16:55,086 cfg.data.test                      : ./Data/tmp/test
+2024-04-12 08:16:55,086 cfg.data.max_sent_length           : 300
+2024-04-12 08:16:55,086 cfg.data.skip_frames               : 1
+2024-04-12 08:16:55,086 cfg.data.src_vocab                 : ./Configs/src_vocab.txt
+2024-04-12 08:16:55,086 cfg.training.random_seed           : 27
+2024-04-12 08:16:55,086 cfg.training.optimizer             : adam
+2024-04-12 08:16:55,086 cfg.training.learning_rate         : 0.001
+2024-04-12 08:16:55,086 cfg.training.learning_rate_min     : 0.0002
+2024-04-12 08:16:55,086 cfg.training.weight_decay          : 0.0
+2024-04-12 08:16:55,086 cfg.training.clip_grad_norm        : 5.0
+2024-04-12 08:16:55,086 cfg.training.batch_size            : 8
+2024-04-12 08:16:55,086 cfg.training.scheduling            : plateau
+2024-04-12 08:16:55,086 cfg.training.patience              : 7
+2024-04-12 08:16:55,086 cfg.training.decrease_factor       : 0.7
+2024-04-12 08:16:55,086 cfg.training.early_stopping_metric : dtw
+2024-04-12 08:16:55,087 cfg.training.epochs                : 20000
+2024-04-12 08:16:55,087 cfg.training.validation_freq       : 10
+2024-04-12 08:16:55,087 cfg.training.logging_freq          : 250
+2024-04-12 08:16:55,087 cfg.training.eval_metric           : dtw
+2024-04-12 08:16:55,087 cfg.training.model_dir             : ./Models/Base
+2024-04-12 08:16:55,087 cfg.training.overwrite             : False
+2024-04-12 08:16:55,087 cfg.training.continue              : True
+2024-04-12 08:16:55,087 cfg.training.shuffle               : True
+2024-04-12 08:16:55,087 cfg.training.use_cuda              : False
+2024-04-12 08:16:55,087 cfg.training.max_output_length     : 300
+2024-04-12 08:16:55,087 cfg.training.keep_last_ckpts       : 1
+2024-04-12 08:16:55,087 cfg.training.loss                  : MSE
+2024-04-12 08:16:55,087 cfg.model.initializer              : xavier
+2024-04-12 08:16:55,087 cfg.model.bias_initializer         : zeros
+2024-04-12 08:16:55,087 cfg.model.embed_initializer        : xavier
+2024-04-12 08:16:55,087 cfg.model.trg_size                 : 150
+2024-04-12 08:16:55,087 cfg.model.just_count_in            : False
+2024-04-12 08:16:55,087 cfg.model.gaussian_noise           : False
+2024-04-12 08:16:55,087 cfg.model.noise_rate               : 5
+2024-04-12 08:16:55,087 cfg.model.future_prediction        : 0
+2024-04-12 08:16:55,087 cfg.model.encoder.type             : transformer
+2024-04-12 08:16:55,087 cfg.model.encoder.num_layers       : 2
+2024-04-12 08:16:55,087 cfg.model.encoder.num_heads        : 4
+2024-04-12 08:16:55,087 cfg.model.encoder.embeddings.embedding_dim : 512
+2024-04-12 08:16:55,087 cfg.model.encoder.embeddings.dropout : 0.0
+2024-04-12 08:16:55,087 cfg.model.encoder.hidden_size      : 512
+2024-04-12 08:16:55,087 cfg.model.encoder.ff_size          : 2048
+2024-04-12 08:16:55,087 cfg.model.encoder.dropout          : 0.0
+2024-04-12 08:16:55,087 cfg.model.decoder.type             : transformer
+2024-04-12 08:16:55,087 cfg.model.decoder.num_layers       : 2
+2024-04-12 08:16:55,087 cfg.model.decoder.num_heads        : 4
+2024-04-12 08:16:55,087 cfg.model.decoder.embeddings.embedding_dim : 512
+2024-04-12 08:16:55,087 cfg.model.decoder.embeddings.dropout : 0.0
+2024-04-12 08:16:55,087 cfg.model.decoder.hidden_size      : 512
+2024-04-12 08:16:55,087 cfg.model.decoder.ff_size          : 2048
+2024-04-12 08:16:55,087 cfg.model.decoder.dropout          : 0.0
+2024-04-12 08:16:55,087 EPOCH 1
+2024-04-12 08:16:55,817 Epoch   1: total training loss 0.23035
+2024-04-12 08:16:55,817 EPOCH 2
+2024-04-12 08:16:56,280 Epoch   2: total training loss 0.51402
+2024-04-12 08:16:56,280 EPOCH 3
+2024-04-12 08:16:56,718 Epoch   3: total training loss 0.12913
+2024-04-12 08:16:56,718 EPOCH 4
+2024-04-12 08:16:57,157 Epoch   4: total training loss 0.04167
+2024-04-12 08:16:57,157 EPOCH 5
+2024-04-12 08:16:57,607 Epoch   5: total training loss 0.02159
+2024-04-12 08:16:57,607 EPOCH 6
+2024-04-12 08:16:58,061 Epoch   6: total training loss 0.02402
+2024-04-12 08:16:58,061 EPOCH 7
+2024-04-12 08:16:58,522 Epoch   7: total training loss 0.02713
+2024-04-12 08:16:58,522 EPOCH 8
+2024-04-12 08:16:58,959 Epoch   8: total training loss 0.02571
+2024-04-12 08:16:58,959 EPOCH 9
+2024-04-12 08:16:59,423 Epoch   9: total training loss 0.02111
+2024-04-12 08:16:59,423 EPOCH 10
+2024-04-12 08:17:10,267 Hooray! New best validation result [dtw]!
+2024-04-12 08:17:10,267 Saving new checkpoint.
+2024-04-12 08:17:17,352 Validation result at epoch  10, step       10: Val DTW Score:  31.17, loss:   0.0511,  duration: 17.5087s
+2024-04-12 08:17:17,353 Epoch  10: total training loss 0.01572
+2024-04-12 08:17:17,354 EPOCH 11
+2024-04-12 08:17:17,879 Epoch  11: total training loss 0.01105
+2024-04-12 08:17:17,879 EPOCH 12
+2024-04-12 08:17:18,404 Epoch  12: total training loss 0.00844
+2024-04-12 08:17:18,405 EPOCH 13
+2024-04-12 08:17:18,937 Epoch  13: total training loss 0.00754
+2024-04-12 08:17:18,937 EPOCH 14
+2024-04-12 08:17:19,448 Epoch  14: total training loss 0.00781
+2024-04-12 08:17:19,448 EPOCH 15
+2024-04-12 08:17:19,968 Epoch  15: total training loss 0.00842
+2024-04-12 08:17:19,968 EPOCH 16
+2024-04-12 08:17:20,933 Epoch  16: total training loss 0.00872
+2024-04-12 08:17:20,933 EPOCH 17
+2024-04-12 08:17:21,732 Epoch  17: total training loss 0.00851
+2024-04-12 08:17:21,733 EPOCH 18
+2024-04-12 08:17:22,247 Epoch  18: total training loss 0.00780
+2024-04-12 08:17:22,247 EPOCH 19
+2024-04-12 08:17:22,857 Epoch  19: total training loss 0.00682
+2024-04-12 08:17:22,857 EPOCH 20
+2024-04-12 08:17:34,121 Hooray! New best validation result [dtw]!
+2024-04-12 08:17:34,122 Saving new checkpoint.
+2024-04-12 08:17:40,874 Validation result at epoch  20, step       20: Val DTW Score:  25.21, loss:   0.0202,  duration: 17.5249s
+2024-04-12 08:17:40,875 Epoch  20: total training loss 0.00590
+2024-04-12 08:17:40,875 EPOCH 21
+2024-04-12 08:17:41,378 Epoch  21: total training loss 0.00516
+2024-04-12 08:17:41,378 EPOCH 22
+2024-04-12 08:17:41,829 Epoch  22: total training loss 0.00477
+2024-04-12 08:17:41,829 EPOCH 23
+2024-04-12 08:17:42,296 Epoch  23: total training loss 0.00462
+2024-04-12 08:17:42,296 EPOCH 24
+2024-04-12 08:17:42,784 Epoch  24: total training loss 0.00458
+2024-04-12 08:17:42,784 EPOCH 25
+2024-04-12 08:17:43,271 Epoch  25: total training loss 0.00451
+2024-04-12 08:17:43,271 EPOCH 26
+2024-04-12 08:17:43,742 Epoch  26: total training loss 0.00449
+2024-04-12 08:17:43,742 EPOCH 27
+2024-04-12 08:17:44,278 Epoch  27: total training loss 0.00437
+2024-04-12 08:17:44,278 EPOCH 28
+2024-04-12 08:17:44,741 Epoch  28: total training loss 0.00427
+2024-04-12 08:17:44,741 EPOCH 29
+2024-04-12 08:17:45,212 Epoch  29: total training loss 0.00412
+2024-04-12 08:17:45,212 EPOCH 30
+2024-04-12 08:17:56,684 Hooray! New best validation result [dtw]!
+2024-04-12 08:17:56,684 Saving new checkpoint.
+2024-04-12 08:18:02,969 Validation result at epoch  30, step       30: Val DTW Score:  19.70, loss:   0.0134,  duration: 17.3135s
+2024-04-12 08:18:02,969 Epoch  30: total training loss 0.00390
+2024-04-12 08:18:02,969 EPOCH 31
+2024-04-12 08:18:03,427 Epoch  31: total training loss 0.00367
+2024-04-12 08:18:03,427 EPOCH 32
+2024-04-12 08:18:03,872 Epoch  32: total training loss 0.00346
+2024-04-12 08:18:03,872 EPOCH 33
+2024-04-12 08:18:04,340 Epoch  33: total training loss 0.00323
+2024-04-12 08:18:04,340 EPOCH 34
+2024-04-12 08:18:04,802 Epoch  34: total training loss 0.00306
+2024-04-12 08:18:04,803 EPOCH 35
+2024-04-12 08:18:05,269 Epoch  35: total training loss 0.00303
+2024-04-12 08:18:05,270 EPOCH 36
+2024-04-12 08:18:05,739 Epoch  36: total training loss 0.00305
+2024-04-12 08:18:05,739 EPOCH 37
+2024-04-12 08:18:06,191 Epoch  37: total training loss 0.00309
+2024-04-12 08:18:06,191 EPOCH 38
+2024-04-12 08:18:06,659 Epoch  38: total training loss 0.00305
+2024-04-12 08:18:06,659 EPOCH 39
+2024-04-12 08:18:07,119 Epoch  39: total training loss 0.00302
+2024-04-12 08:18:07,120 EPOCH 40
+2024-04-12 08:18:18,557 Hooray! New best validation result [dtw]!
+2024-04-12 08:18:18,557 Saving new checkpoint.
+2024-04-12 08:18:24,858 Validation result at epoch  40, step       40: Val DTW Score:  17.29, loss:   0.0101,  duration: 17.2529s
+2024-04-12 08:18:24,858 Epoch  40: total training loss 0.00289
+2024-04-12 08:18:24,858 EPOCH 41
+2024-04-12 08:18:25,368 Epoch  41: total training loss 0.00276
+2024-04-12 08:18:25,368 EPOCH 42
+2024-04-12 08:18:25,875 Epoch  42: total training loss 0.00264
+2024-04-12 08:18:25,875 EPOCH 43
+2024-04-12 08:18:26,358 Epoch  43: total training loss 0.00253
+2024-04-12 08:18:26,358 EPOCH 44
+2024-04-12 08:18:26,824 Epoch  44: total training loss 0.00248
+2024-04-12 08:18:26,824 EPOCH 45
+2024-04-12 08:18:27,298 Epoch  45: total training loss 0.00242
+2024-04-12 08:18:27,298 EPOCH 46
+2024-04-12 08:18:27,789 Epoch  46: total training loss 0.00245
+2024-04-12 08:18:27,789 EPOCH 47
+2024-04-12 08:18:28,346 Epoch  47: total training loss 0.00245
+2024-04-12 08:18:28,347 EPOCH 48
+2024-04-12 08:18:28,856 Epoch  48: total training loss 0.00244
+2024-04-12 08:18:28,857 EPOCH 49
+2024-04-12 08:18:29,374 Epoch  49: total training loss 0.00238
+2024-04-12 08:18:29,375 EPOCH 50
+2024-04-12 08:18:41,043 Hooray! New best validation result [dtw]!
+2024-04-12 08:18:41,043 Saving new checkpoint.
+2024-04-12 08:18:47,193 Validation result at epoch  50, step       50: Val DTW Score:  16.12, loss:   0.0087,  duration: 17.3344s
+2024-04-12 08:18:47,194 Epoch  50: total training loss 0.00229
+2024-04-12 08:18:47,194 EPOCH 51
+2024-04-12 08:18:47,656 Epoch  51: total training loss 0.00225
+2024-04-12 08:18:47,656 EPOCH 52
+2024-04-12 08:18:48,195 Epoch  52: total training loss 0.00216
+2024-04-12 08:18:48,195 EPOCH 53
+2024-04-12 08:18:48,703 Epoch  53: total training loss 0.00214
+2024-04-12 08:18:48,703 EPOCH 54
+2024-04-12 08:18:49,192 Epoch  54: total training loss 0.00211
+2024-04-12 08:18:49,192 EPOCH 55
+2024-04-12 08:18:49,686 Epoch  55: total training loss 0.00209
+2024-04-12 08:18:49,686 EPOCH 56
+2024-04-12 08:18:50,188 Epoch  56: total training loss 0.00207
+2024-04-12 08:18:50,188 EPOCH 57
+2024-04-12 08:18:50,668 Epoch  57: total training loss 0.00206
+2024-04-12 08:18:50,668 EPOCH 58
+2024-04-12 08:18:51,186 Epoch  58: total training loss 0.00201
+2024-04-12 08:18:51,186 EPOCH 59
+2024-04-12 08:18:51,740 Epoch  59: total training loss 0.00198
+2024-04-12 08:18:51,740 EPOCH 60
+2024-04-12 08:19:03,466 Hooray! New best validation result [dtw]!
+2024-04-12 08:19:03,467 Saving new checkpoint.
+2024-04-12 08:19:09,628 Validation result at epoch  60, step       60: Val DTW Score:  15.76, loss:   0.0084,  duration: 17.4002s
+2024-04-12 08:19:09,628 Epoch  60: total training loss 0.00194
+2024-04-12 08:19:09,628 EPOCH 61
+2024-04-12 08:19:10,156 Epoch  61: total training loss 0.00193
+2024-04-12 08:19:10,156 EPOCH 62
+2024-04-12 08:19:10,621 Epoch  62: total training loss 0.00188
+2024-04-12 08:19:10,622 EPOCH 63
+2024-04-12 08:19:11,083 Epoch  63: total training loss 0.00186
+2024-04-12 08:19:11,083 EPOCH 64
+2024-04-12 08:19:11,570 Epoch  64: total training loss 0.00184
+2024-04-12 08:19:11,570 EPOCH 65
+2024-04-12 08:19:12,041 Epoch  65: total training loss 0.00183
+2024-04-12 08:19:12,041 EPOCH 66
+2024-04-12 08:19:12,511 Epoch  66: total training loss 0.00180
+2024-04-12 08:19:12,511 EPOCH 67
+2024-04-12 08:19:12,972 Epoch  67: total training loss 0.00179
+2024-04-12 08:19:12,973 EPOCH 68
+2024-04-12 08:19:13,445 Epoch  68: total training loss 0.00175
+2024-04-12 08:19:13,445 EPOCH 69
+2024-04-12 08:19:13,911 Epoch  69: total training loss 0.00173
+2024-04-12 08:19:13,912 EPOCH 70
+2024-04-12 08:19:25,584 Hooray! New best validation result [dtw]!
+2024-04-12 08:19:25,584 Saving new checkpoint.
+2024-04-12 08:19:31,722 Validation result at epoch  70, step       70: Val DTW Score:  15.71, loss:   0.0082,  duration: 17.3236s
+2024-04-12 08:19:31,722 Epoch  70: total training loss 0.00173
+2024-04-12 08:19:31,722 EPOCH 71
+2024-04-12 08:19:32,178 Epoch  71: total training loss 0.00168
+2024-04-12 08:19:32,178 EPOCH 72
+2024-04-12 08:19:32,649 Epoch  72: total training loss 0.00167
+2024-04-12 08:19:32,649 EPOCH 73
+2024-04-12 08:19:33,136 Epoch  73: total training loss 0.00165
+2024-04-12 08:19:33,136 EPOCH 74
+2024-04-12 08:19:33,607 Epoch  74: total training loss 0.00165
+2024-04-12 08:19:33,607 EPOCH 75
+2024-04-12 08:19:34,094 Epoch  75: total training loss 0.00162
+2024-04-12 08:19:34,095 EPOCH 76
+2024-04-12 08:19:34,559 Epoch  76: total training loss 0.00160
+2024-04-12 08:19:34,559 EPOCH 77
+2024-04-12 08:19:35,048 Epoch  77: total training loss 0.00159
+2024-04-12 08:19:35,048 EPOCH 78
+2024-04-12 08:19:35,525 Epoch  78: total training loss 0.00156
+2024-04-12 08:19:35,525 EPOCH 79
+2024-04-12 08:19:36,015 Epoch  79: total training loss 0.00156
+2024-04-12 08:19:36,015 EPOCH 80
+2024-04-12 08:19:49,253 Validation result at epoch  80, step       80: Val DTW Score:  15.80, loss:   0.0081,  duration: 12.7728s
+2024-04-12 08:19:49,254 Epoch  80: total training loss 0.00153
+2024-04-12 08:19:49,254 EPOCH 81
+2024-04-12 08:19:49,761 Epoch  81: total training loss 0.00152
+2024-04-12 08:19:49,761 EPOCH 82
+2024-04-12 08:19:50,239 Epoch  82: total training loss 0.00152
+2024-04-12 08:19:50,239 EPOCH 83
+2024-04-12 08:19:50,724 Epoch  83: total training loss 0.00148
+2024-04-12 08:19:50,725 EPOCH 84
+2024-04-12 08:19:51,221 Epoch  84: total training loss 0.00148
+2024-04-12 08:19:51,221 EPOCH 85
+2024-04-12 08:19:51,744 Epoch  85: total training loss 0.00145
+2024-04-12 08:19:51,744 EPOCH 86
+2024-04-12 08:19:52,239 Epoch  86: total training loss 0.00145
+2024-04-12 08:19:52,239 EPOCH 87
+2024-04-12 08:19:52,766 Epoch  87: total training loss 0.00144
+2024-04-12 08:19:52,766 EPOCH 88
+2024-04-12 08:19:53,265 Epoch  88: total training loss 0.00142
+2024-04-12 08:19:53,266 EPOCH 89
+2024-04-12 08:19:53,797 Epoch  89: total training loss 0.00141
+2024-04-12 08:19:53,797 EPOCH 90
+2024-04-12 08:20:07,500 Validation result at epoch  90, step       90: Val DTW Score:  15.97, loss:   0.0081,  duration: 13.2022s
+2024-04-12 08:20:07,500 Epoch  90: total training loss 0.00139
+2024-04-12 08:20:07,500 EPOCH 91
+2024-04-12 08:20:08,098 Epoch  91: total training loss 0.00138
+2024-04-12 08:20:08,098 EPOCH 92
+2024-04-12 08:20:08,666 Epoch  92: total training loss 0.00137
+2024-04-12 08:20:08,666 EPOCH 93
+2024-04-12 08:20:09,229 Epoch  93: total training loss 0.00136
+2024-04-12 08:20:09,230 EPOCH 94
+2024-04-12 08:20:09,898 Epoch  94: total training loss 0.00135
+2024-04-12 08:20:09,898 EPOCH 95
+2024-04-12 08:20:10,465 Epoch  95: total training loss 0.00134
+2024-04-12 08:20:10,465 EPOCH 96
+2024-04-12 08:20:11,046 Epoch  96: total training loss 0.00132
+2024-04-12 08:20:11,046 EPOCH 97
+2024-04-12 08:20:11,683 Epoch  97: total training loss 0.00131
+2024-04-12 08:20:11,683 EPOCH 98
+2024-04-12 08:20:12,326 Epoch  98: total training loss 0.00131
+2024-04-12 08:20:12,326 EPOCH 99
+2024-04-12 08:20:12,953 Epoch  99: total training loss 0.00129
+2024-04-12 08:20:12,954 EPOCH 100
+2024-04-12 08:20:27,278 Validation result at epoch 100, step      100: Val DTW Score:  16.10, loss:   0.0081,  duration: 13.7140s
+2024-04-12 08:20:27,278 Epoch 100: total training loss 0.00128
+2024-04-12 08:20:27,278 EPOCH 101
+2024-04-12 08:20:27,762 Epoch 101: total training loss 0.00127
+2024-04-12 08:20:27,763 EPOCH 102
+2024-04-12 08:20:28,459 Epoch 102: total training loss 0.00127
+2024-04-12 08:20:28,459 EPOCH 103
+2024-04-12 08:20:28,985 Epoch 103: total training loss 0.00126
+2024-04-12 08:20:28,985 EPOCH 104
+2024-04-12 08:20:29,656 Epoch 104: total training loss 0.00125
+2024-04-12 08:20:29,656 EPOCH 105
+2024-04-12 08:20:30,225 Epoch 105: total training loss 0.00124
+2024-04-12 08:20:30,226 EPOCH 106
+2024-04-12 08:20:30,762 Epoch 106: total training loss 0.00123
+2024-04-12 08:20:30,762 EPOCH 107
+2024-04-12 08:20:31,319 Epoch 107: total training loss 0.00122
+2024-04-12 08:20:31,319 EPOCH 108
+2024-04-12 08:20:31,825 Epoch 108: total training loss 0.00121
+2024-04-12 08:20:31,825 EPOCH 109
+2024-04-12 08:20:32,382 Epoch 109: total training loss 0.00119
+2024-04-12 08:20:32,382 EPOCH 110
+2024-04-12 08:20:46,794 Validation result at epoch 110, step      110: Val DTW Score:  16.16, loss:   0.0080,  duration: 13.8954s
+2024-04-12 08:20:46,794 Epoch 110: total training loss 0.00119
+2024-04-12 08:20:46,794 EPOCH 111
+2024-04-12 08:20:47,344 Epoch 111: total training loss 0.00118
+2024-04-12 08:20:47,344 EPOCH 112
+2024-04-12 08:20:47,887 Epoch 112: total training loss 0.00118
+2024-04-12 08:20:47,888 EPOCH 113
+2024-04-12 08:20:48,631 Epoch 113: total training loss 0.00117
+2024-04-12 08:20:48,631 EPOCH 114
+2024-04-12 08:20:49,126 Epoch 114: total training loss 0.00117
+2024-04-12 08:20:49,126 EPOCH 115
+2024-04-12 08:20:49,643 Epoch 115: total training loss 0.00115
+2024-04-12 08:20:49,643 EPOCH 116
+2024-04-12 08:20:50,169 Epoch 116: total training loss 0.00115
+2024-04-12 08:20:50,170 EPOCH 117
+2024-04-12 08:20:50,672 Epoch 117: total training loss 0.00114
+2024-04-12 08:20:50,672 EPOCH 118
+2024-04-12 08:20:51,186 Epoch 118: total training loss 0.00113
+2024-04-12 08:20:51,186 EPOCH 119
+2024-04-12 08:20:51,726 Epoch 119: total training loss 0.00112
+2024-04-12 08:20:51,726 EPOCH 120
+2024-04-12 08:21:06,606 Validation result at epoch 120, step      120: Val DTW Score:  16.26, loss:   0.0080,  duration: 14.2716s
+2024-04-12 08:21:06,607 Epoch 120: total training loss 0.00112
+2024-04-12 08:21:06,607 EPOCH 121
+2024-04-12 08:21:07,111 Epoch 121: total training loss 0.00111
+2024-04-12 08:21:07,111 EPOCH 122
+2024-04-12 08:21:07,654 Epoch 122: total training loss 0.00111
+2024-04-12 08:21:07,654 EPOCH 123
+2024-04-12 08:21:08,164 Epoch 123: total training loss 0.00110
+2024-04-12 08:21:08,164 EPOCH 124
+2024-04-12 08:21:08,675 Epoch 124: total training loss 0.00110
+2024-04-12 08:21:08,675 EPOCH 125
+2024-04-12 08:21:09,183 Epoch 125: total training loss 0.00109
+2024-04-12 08:21:09,184 EPOCH 126
+2024-04-12 08:21:09,688 Epoch 126: total training loss 0.00109
+2024-04-12 08:21:09,688 EPOCH 127
+2024-04-12 08:21:10,202 Epoch 127: total training loss 0.00107
+2024-04-12 08:21:10,202 EPOCH 128
+2024-04-12 08:21:10,708 Epoch 128: total training loss 0.00107
+2024-04-12 08:21:10,709 EPOCH 129
+2024-04-12 08:21:11,237 Epoch 129: total training loss 0.00107
+2024-04-12 08:21:11,237 EPOCH 130
+2024-04-12 08:21:25,625 Validation result at epoch 130, step      130: Val DTW Score:  16.35, loss:   0.0080,  duration: 13.8643s
+2024-04-12 08:21:25,626 Epoch 130: total training loss 0.00106
+2024-04-12 08:21:25,626 EPOCH 131
+2024-04-12 08:21:26,112 Epoch 131: total training loss 0.00106
+2024-04-12 08:21:26,112 EPOCH 132
+2024-04-12 08:21:26,620 Epoch 132: total training loss 0.00105
+2024-04-12 08:21:26,621 EPOCH 133
+2024-04-12 08:21:27,135 Epoch 133: total training loss 0.00105
+2024-04-12 08:21:27,135 EPOCH 134
+2024-04-12 08:21:27,629 Epoch 134: total training loss 0.00105
+2024-04-12 08:21:27,629 EPOCH 135
+2024-04-12 08:21:28,138 Epoch 135: total training loss 0.00104
+2024-04-12 08:21:28,138 EPOCH 136
+2024-04-12 08:21:28,631 Epoch 136: total training loss 0.00104
+2024-04-12 08:21:28,632 EPOCH 137
+2024-04-12 08:21:29,119 Epoch 137: total training loss 0.00103
+2024-04-12 08:21:29,119 EPOCH 138
+2024-04-12 08:21:29,624 Epoch 138: total training loss 0.00103
+2024-04-12 08:21:29,625 EPOCH 139
+2024-04-12 08:21:30,116 Epoch 139: total training loss 0.00102
+2024-04-12 08:21:30,116 EPOCH 140
+2024-04-12 08:21:43,916 Validation result at epoch 140, step      140: Val DTW Score:  16.41, loss:   0.0079,  duration: 13.3024s
+2024-04-12 08:21:43,917 Epoch 140: total training loss 0.00102
+2024-04-12 08:21:43,917 EPOCH 141
+2024-04-12 08:21:44,396 Epoch 141: total training loss 0.00101
+2024-04-12 08:21:44,396 EPOCH 142
+2024-04-12 08:21:44,895 Epoch 142: total training loss 0.00101
+2024-04-12 08:21:44,895 EPOCH 143
+2024-04-12 08:21:45,412 Epoch 143: total training loss 0.00101
+2024-04-12 08:21:45,412 EPOCH 144
+2024-04-12 08:21:45,907 Epoch 144: total training loss 0.00100
+2024-04-12 08:21:45,907 EPOCH 145
+2024-04-12 08:21:46,399 Epoch 145: total training loss 0.00099
+2024-04-12 08:21:46,399 EPOCH 146
+2024-04-12 08:21:46,905 Epoch 146: total training loss 0.00100
+2024-04-12 08:21:46,905 EPOCH 147
+2024-04-12 08:21:47,414 Epoch 147: total training loss 0.00099
+2024-04-12 08:21:47,415 EPOCH 148
+2024-04-12 08:21:47,999 Epoch 148: total training loss 0.00098
+2024-04-12 08:21:48,000 EPOCH 149
+2024-04-12 08:21:48,555 Epoch 149: total training loss 0.00098
+2024-04-12 08:21:48,555 EPOCH 150
+2024-04-12 08:22:02,823 Validation result at epoch 150, step      150: Val DTW Score:  19.34, loss:   0.0079,  duration: 13.7642s
+2024-04-12 08:22:02,824 Epoch 150: total training loss 0.00098
+2024-04-12 08:22:02,824 EPOCH 151
+2024-04-12 08:22:03,441 Epoch 151: total training loss 0.00097
+2024-04-12 08:22:03,441 EPOCH 152
+2024-04-12 08:22:03,966 Epoch 152: total training loss 0.00098
+2024-04-12 08:22:03,967 EPOCH 153
+2024-04-12 08:22:04,501 Epoch 153: total training loss 0.00097
+2024-04-12 08:22:04,501 EPOCH 154
+2024-04-12 08:22:05,071 Epoch 154: total training loss 0.00096
+2024-04-12 08:22:05,071 EPOCH 155
+2024-04-12 08:22:05,576 Epoch 155: total training loss 0.00097
+2024-04-12 08:22:05,576 EPOCH 156
+2024-04-12 08:22:06,079 Epoch 156: total training loss 0.00096
+2024-04-12 08:22:06,080 EPOCH 157
+2024-04-12 08:22:06,583 Epoch 157: total training loss 0.00096
+2024-04-12 08:22:06,584 EPOCH 158
+2024-04-12 08:22:07,092 Epoch 158: total training loss 0.00096
+2024-04-12 08:22:07,092 EPOCH 159
+2024-04-12 08:22:07,596 Epoch 159: total training loss 0.00096
+2024-04-12 08:22:07,596 EPOCH 160
+2024-04-12 08:22:22,531 Validation result at epoch 160, step      160: Val DTW Score:  16.51, loss:   0.0079,  duration: 14.4219s
+2024-04-12 08:22:22,532 Epoch 160: total training loss 0.00096
+2024-04-12 08:22:22,532 EPOCH 161
+2024-04-12 08:22:23,215 Epoch 161: total training loss 0.00095
+2024-04-12 08:22:23,215 EPOCH 162
+2024-04-12 08:22:23,811 Epoch 162: total training loss 0.00095
+2024-04-12 08:22:23,811 EPOCH 163
+2024-04-12 08:22:24,440 Epoch 163: total training loss 0.00095
+2024-04-12 08:22:24,440 EPOCH 164
+2024-04-12 08:22:25,068 Epoch 164: total training loss 0.00094
+2024-04-12 08:22:25,068 EPOCH 165
+2024-04-12 08:22:25,743 Epoch 165: total training loss 0.00094
+2024-04-12 08:22:25,743 EPOCH 166
+2024-04-12 08:22:26,278 Epoch 166: total training loss 0.00094
+2024-04-12 08:22:26,278 EPOCH 167
+2024-04-12 08:22:26,829 Epoch 167: total training loss 0.00094
+2024-04-12 08:22:26,829 EPOCH 168
+2024-04-12 08:22:27,424 Epoch 168: total training loss 0.00094
+2024-04-12 08:22:27,425 EPOCH 169
+2024-04-12 08:22:27,965 Epoch 169: total training loss 0.00093
+2024-04-12 08:22:27,965 EPOCH 170
+2024-04-12 08:22:42,985 Validation result at epoch 170, step      170: Val DTW Score:  19.46, loss:   0.0078,  duration: 14.4728s
+2024-04-12 08:22:42,986 Epoch 170: total training loss 0.00093
+2024-04-12 08:22:42,986 EPOCH 171
+2024-04-12 08:22:43,552 Epoch 171: total training loss 0.00093
+2024-04-12 08:22:43,552 EPOCH 172
+2024-04-12 08:22:44,099 Epoch 172: total training loss 0.00093
+2024-04-12 08:22:44,099 EPOCH 173
+2024-04-12 08:22:44,683 Epoch 173: total training loss 0.00093
+2024-04-12 08:22:44,683 EPOCH 174
+2024-04-12 08:22:45,279 Epoch 174: total training loss 0.00092
+2024-04-12 08:22:45,279 EPOCH 175
+2024-04-12 08:22:45,842 Epoch 175: total training loss 0.00092
+2024-04-12 08:22:45,842 EPOCH 176
+2024-04-12 08:22:46,431 Epoch 176: total training loss 0.00092
+2024-04-12 08:22:46,431 EPOCH 177
+2024-04-12 08:22:47,186 Epoch 177: total training loss 0.00092
+2024-04-12 08:22:47,186 EPOCH 178
+2024-04-12 08:22:47,792 Epoch 178: total training loss 0.00092
+2024-04-12 08:22:47,792 EPOCH 179
+2024-04-12 08:22:48,368 Epoch 179: total training loss 0.00091
+2024-04-12 08:22:48,368 EPOCH 180
+2024-04-12 08:23:04,503 Validation result at epoch 180, step      180: Val DTW Score:  19.44, loss:   0.0078,  duration: 15.1942s
+2024-04-12 08:23:04,504 Epoch 180: total training loss 0.00091
+2024-04-12 08:23:04,504 EPOCH 181
+2024-04-12 08:23:05,015 Epoch 181: total training loss 0.00091
+2024-04-12 08:23:05,015 EPOCH 182
+2024-04-12 08:23:05,573 Epoch 182: total training loss 0.00091
+2024-04-12 08:23:05,573 EPOCH 183
+2024-04-12 08:23:06,097 Epoch 183: total training loss 0.00091
+2024-04-12 08:23:06,097 EPOCH 184
+2024-04-12 08:23:06,634 Epoch 184: total training loss 0.00090
+2024-04-12 08:23:06,634 EPOCH 185
+2024-04-12 08:23:07,163 Epoch 185: total training loss 0.00090
+2024-04-12 08:23:07,163 EPOCH 186
+2024-04-12 08:23:07,670 Epoch 186: total training loss 0.00090
+2024-04-12 08:23:07,670 EPOCH 187
+2024-04-12 08:23:08,193 Epoch 187: total training loss 0.00090
+2024-04-12 08:23:08,193 EPOCH 188
+2024-04-12 08:23:08,713 Epoch 188: total training loss 0.00090
+2024-04-12 08:23:08,713 EPOCH 189
+2024-04-12 08:23:09,227 Epoch 189: total training loss 0.00090
+2024-04-12 08:23:09,228 EPOCH 190
+2024-04-12 08:23:23,101 Validation result at epoch 190, step      190: Val DTW Score:  19.53, loss:   0.0078,  duration: 13.3494s
+2024-04-12 08:23:23,101 Epoch 190: total training loss 0.00089
+2024-04-12 08:23:23,102 EPOCH 191
+2024-04-12 08:23:23,645 Epoch 191: total training loss 0.00089
+2024-04-12 08:23:23,645 EPOCH 192
+2024-04-12 08:23:24,151 Epoch 192: total training loss 0.00089
+2024-04-12 08:23:24,151 EPOCH 193
+2024-04-12 08:23:24,670 Epoch 193: total training loss 0.00089
+2024-04-12 08:23:24,670 EPOCH 194
+2024-04-12 08:23:25,176 Epoch 194: total training loss 0.00089
+2024-04-12 08:23:25,176 EPOCH 195
+2024-04-12 08:23:25,675 Epoch 195: total training loss 0.00088
+2024-04-12 08:23:25,675 EPOCH 196
+2024-04-12 08:23:26,164 Epoch 196: total training loss 0.00088
+2024-04-12 08:23:26,164 EPOCH 197
+2024-04-12 08:23:26,650 Epoch 197: total training loss 0.00088
+2024-04-12 08:23:26,650 EPOCH 198
+2024-04-12 08:23:27,137 Epoch 198: total training loss 0.00088
+2024-04-12 08:23:27,137 EPOCH 199
+2024-04-12 08:23:27,629 Epoch 199: total training loss 0.00088
+2024-04-12 08:23:27,629 EPOCH 200
+2024-04-12 08:23:42,444 Validation result at epoch 200, step      200: Val DTW Score:  19.57, loss:   0.0077,  duration: 14.2131s
+2024-04-12 08:23:42,445 Epoch 200: total training loss 0.00088
+2024-04-12 08:23:42,445 EPOCH 201
+2024-04-12 08:23:42,968 Epoch 201: total training loss 0.00087
+2024-04-12 08:23:42,968 EPOCH 202
+2024-04-12 08:23:43,474 Epoch 202: total training loss 0.00087
+2024-04-12 08:23:43,474 EPOCH 203
+2024-04-12 08:23:43,979 Epoch 203: total training loss 0.00087
+2024-04-12 08:23:43,979 EPOCH 204
+2024-04-12 08:23:44,495 Epoch 204: total training loss 0.00087
+2024-04-12 08:23:44,495 EPOCH 205
+2024-04-12 08:23:45,002 Epoch 205: total training loss 0.00087
+2024-04-12 08:23:45,003 EPOCH 206
+2024-04-12 08:23:45,608 Epoch 206: total training loss 0.00087
+2024-04-12 08:23:45,608 EPOCH 207
+2024-04-12 08:23:46,118 Epoch 207: total training loss 0.00087
+2024-04-12 08:23:46,118 EPOCH 208
+2024-04-12 08:23:46,629 Epoch 208: total training loss 0.00086
+2024-04-12 08:23:46,629 EPOCH 209
+2024-04-12 08:23:47,138 Epoch 209: total training loss 0.00086
+2024-04-12 08:23:47,138 EPOCH 210
+2024-04-12 08:24:01,618 Validation result at epoch 210, step      210: Val DTW Score:  19.61, loss:   0.0076,  duration: 13.9555s
+2024-04-12 08:24:01,619 Epoch 210: total training loss 0.00086
+2024-04-12 08:24:01,619 EPOCH 211
+2024-04-12 08:24:02,153 Epoch 211: total training loss 0.00086
+2024-04-12 08:24:02,153 EPOCH 212
+2024-04-12 08:24:02,706 Epoch 212: total training loss 0.00086
+2024-04-12 08:24:02,706 EPOCH 213
+2024-04-12 08:24:03,220 Epoch 213: total training loss 0.00085
+2024-04-12 08:24:03,220 EPOCH 214
+2024-04-12 08:24:03,730 Epoch 214: total training loss 0.00085
+2024-04-12 08:24:03,730 EPOCH 215
+2024-04-12 08:24:04,309 Epoch 215: total training loss 0.00085
+2024-04-12 08:24:04,310 EPOCH 216
+2024-04-12 08:24:04,965 Epoch 216: total training loss 0.00085
+2024-04-12 08:24:04,965 EPOCH 217
+2024-04-12 08:24:05,507 Epoch 217: total training loss 0.00085
+2024-04-12 08:24:05,507 EPOCH 218
+2024-04-12 08:24:06,060 Epoch 218: total training loss 0.00085
+2024-04-12 08:24:06,060 EPOCH 219
+2024-04-12 08:24:06,614 Epoch 219: total training loss 0.00085
+2024-04-12 08:24:06,614 EPOCH 220
+2024-04-12 08:24:21,010 Validation result at epoch 220, step      220: Val DTW Score:  19.64, loss:   0.0075,  duration: 13.8515s
+2024-04-12 08:24:21,011 Epoch 220: total training loss 0.00084
+2024-04-12 08:24:21,011 EPOCH 221
+2024-04-12 08:24:21,502 Epoch 221: total training loss 0.00084
+2024-04-12 08:24:21,502 EPOCH 222
+2024-04-12 08:24:22,000 Epoch 222: total training loss 0.00084
+2024-04-12 08:24:22,000 EPOCH 223
+2024-04-12 08:24:22,586 Epoch 223: total training loss 0.00084
+2024-04-12 08:24:22,586 EPOCH 224
+2024-04-12 08:24:23,174 Epoch 224: total training loss 0.00084
+2024-04-12 08:24:23,174 EPOCH 225
+2024-04-12 08:24:23,682 Epoch 225: total training loss 0.00084
+2024-04-12 08:24:23,682 EPOCH 226
+2024-04-12 08:24:24,198 Epoch 226: total training loss 0.00083
+2024-04-12 08:24:24,198 EPOCH 227
+2024-04-12 08:24:24,820 Epoch 227: total training loss 0.00083
+2024-04-12 08:24:24,820 EPOCH 228
+2024-04-12 08:24:25,355 Epoch 228: total training loss 0.00083
+2024-04-12 08:24:25,355 EPOCH 229
+2024-04-12 08:24:25,897 Epoch 229: total training loss 0.00083
+2024-04-12 08:24:25,897 EPOCH 230
+2024-04-12 08:24:40,257 Validation result at epoch 230, step      230: Val DTW Score:  16.67, loss:   0.0074,  duration: 13.8394s
+2024-04-12 08:24:40,257 Epoch 230: total training loss 0.00083
+2024-04-12 08:24:40,257 EPOCH 231
+2024-04-12 08:24:40,737 Epoch 231: total training loss 0.00082
+2024-04-12 08:24:40,737 EPOCH 232
+2024-04-12 08:24:41,244 Epoch 232: total training loss 0.00083
+2024-04-12 08:24:41,245 EPOCH 233
+2024-04-12 08:24:41,771 Epoch 233: total training loss 0.00082
+2024-04-12 08:24:41,772 EPOCH 234
+2024-04-12 08:24:42,306 Epoch 234: total training loss 0.00082
+2024-04-12 08:24:42,306 EPOCH 235
+2024-04-12 08:24:42,835 Epoch 235: total training loss 0.00082
+2024-04-12 08:24:42,835 EPOCH 236
+2024-04-12 08:24:43,344 Epoch 236: total training loss 0.00082
+2024-04-12 08:24:43,344 EPOCH 237
+2024-04-12 08:24:43,885 Epoch 237: total training loss 0.00082
+2024-04-12 08:24:43,885 EPOCH 238
+2024-04-12 08:24:44,389 Epoch 238: total training loss 0.00082
+2024-04-12 08:24:44,389 EPOCH 239
+2024-04-12 08:24:44,894 Epoch 239: total training loss 0.00081
+2024-04-12 08:24:44,894 EPOCH 240
+2024-04-12 08:24:59,111 Validation result at epoch 240, step      240: Val DTW Score:  16.69, loss:   0.0074,  duration: 13.6683s
+2024-04-12 08:24:59,113 Epoch 240: total training loss 0.00081
+2024-04-12 08:24:59,113 EPOCH 241
+2024-04-12 08:24:59,631 Epoch 241: total training loss 0.00081
+2024-04-12 08:24:59,631 EPOCH 242
+2024-04-12 08:25:00,204 Epoch 242: total training loss 0.00082
+2024-04-12 08:25:00,204 EPOCH 243
+2024-04-12 08:25:00,736 Epoch 243: total training loss 0.00081
+2024-04-12 08:25:00,736 EPOCH 244
+2024-04-12 08:25:01,266 Epoch 244: total training loss 0.00081
+2024-04-12 08:25:01,267 EPOCH 245
+2024-04-12 08:25:01,823 Epoch 245: total training loss 0.00081
+2024-04-12 08:25:01,823 EPOCH 246
+2024-04-12 08:25:02,401 Epoch 246: total training loss 0.00081
+2024-04-12 08:25:02,402 EPOCH 247
+2024-04-12 08:25:02,917 Epoch 247: total training loss 0.00081
+2024-04-12 08:25:02,917 EPOCH 248
+2024-04-12 08:25:03,449 Epoch 248: total training loss 0.00081
+2024-04-12 08:25:03,449 EPOCH 249
+2024-04-12 08:25:03,967 Epoch 249: total training loss 0.00081
+2024-04-12 08:25:03,967 EPOCH 250
+2024-04-12 08:25:04,470 Epoch 250 Step:      250 Batch Loss:     0.000804 Tokens per Sec:   276669, Lr: 0.000490
+2024-04-12 08:25:18,361 Validation result at epoch 250, step      250: Val DTW Score:  16.78, loss:   0.0073,  duration: 13.8910s
+2024-04-12 08:25:18,362 Epoch 250: total training loss 0.00080
+2024-04-12 08:25:18,362 EPOCH 251
+2024-04-12 08:25:18,881 Epoch 251: total training loss 0.00080
+2024-04-12 08:25:18,882 EPOCH 252
+2024-04-12 08:25:19,428 Epoch 252: total training loss 0.00080
+2024-04-12 08:25:19,428 EPOCH 253
+2024-04-12 08:25:19,941 Epoch 253: total training loss 0.00080
+2024-04-12 08:25:19,941 EPOCH 254
+2024-04-12 08:25:20,470 Epoch 254: total training loss 0.00080
+2024-04-12 08:25:20,470 EPOCH 255
+2024-04-12 08:25:21,009 Epoch 255: total training loss 0.00080
+2024-04-12 08:25:21,009 EPOCH 256
+2024-04-12 08:25:21,526 Epoch 256: total training loss 0.00080
+2024-04-12 08:25:21,526 EPOCH 257
+2024-04-12 08:25:22,032 Epoch 257: total training loss 0.00080
+2024-04-12 08:25:22,033 EPOCH 258
+2024-04-12 08:25:22,546 Epoch 258: total training loss 0.00080
+2024-04-12 08:25:22,546 EPOCH 259
+2024-04-12 08:25:23,102 Epoch 259: total training loss 0.00080
+2024-04-12 08:25:23,102 EPOCH 260
+2024-04-12 08:25:37,144 Validation result at epoch 260, step      260: Val DTW Score:  16.83, loss:   0.0073,  duration: 13.5133s
+2024-04-12 08:25:37,145 Epoch 260: total training loss 0.00079
+2024-04-12 08:25:37,145 EPOCH 261
+2024-04-12 08:25:37,632 Epoch 261: total training loss 0.00079
+2024-04-12 08:25:37,632 EPOCH 262
+2024-04-12 08:25:38,135 Epoch 262: total training loss 0.00079
+2024-04-12 08:25:38,135 EPOCH 263
+2024-04-12 08:25:38,679 Epoch 263: total training loss 0.00079
+2024-04-12 08:25:38,679 EPOCH 264
+2024-04-12 08:25:39,201 Epoch 264: total training loss 0.00079
+2024-04-12 08:25:39,201 EPOCH 265
+2024-04-12 08:25:39,698 Epoch 265: total training loss 0.00079
+2024-04-12 08:25:39,698 EPOCH 266
+2024-04-12 08:25:40,196 Epoch 266: total training loss 0.00079
+2024-04-12 08:25:40,196 EPOCH 267
+2024-04-12 08:25:40,694 Epoch 267: total training loss 0.00079
+2024-04-12 08:25:40,694 EPOCH 268
+2024-04-12 08:25:41,193 Epoch 268: total training loss 0.00079
+2024-04-12 08:25:41,193 EPOCH 269
+2024-04-12 08:25:41,700 Epoch 269: total training loss 0.00079
+2024-04-12 08:25:41,700 EPOCH 270
+2024-04-12 08:25:56,048 Validation result at epoch 270, step      270: Val DTW Score:  16.87, loss:   0.0073,  duration: 13.8321s
+2024-04-12 08:25:56,048 Epoch 270: total training loss 0.00079
+2024-04-12 08:25:56,048 EPOCH 271
+2024-04-12 08:25:56,521 Epoch 271: total training loss 0.00078
+2024-04-12 08:25:56,521 EPOCH 272
+2024-04-12 08:25:57,007 Epoch 272: total training loss 0.00078
+2024-04-12 08:25:57,007 EPOCH 273
+2024-04-12 08:25:57,566 Epoch 273: total training loss 0.00078
+2024-04-12 08:25:57,567 EPOCH 274
+2024-04-12 08:25:58,062 Epoch 274: total training loss 0.00078
+2024-04-12 08:25:58,062 EPOCH 275
+2024-04-12 08:25:58,617 Epoch 275: total training loss 0.00078
+2024-04-12 08:25:58,617 EPOCH 276
+2024-04-12 08:25:59,141 Epoch 276: total training loss 0.00078
+2024-04-12 08:25:59,141 EPOCH 277
+2024-04-12 08:25:59,737 Epoch 277: total training loss 0.00078
+2024-04-12 08:25:59,737 EPOCH 278
+2024-04-12 08:26:00,234 Epoch 278: total training loss 0.00077
+2024-04-12 08:26:00,234 EPOCH 279
+2024-04-12 08:26:00,791 Epoch 279: total training loss 0.00078
+2024-04-12 08:26:00,792 EPOCH 280
+2024-04-12 08:26:15,262 Validation result at epoch 280, step      280: Val DTW Score:  16.95, loss:   0.0072,  duration: 13.9752s
+2024-04-12 08:26:15,262 Epoch 280: total training loss 0.00077
+2024-04-12 08:26:15,262 EPOCH 281
+2024-04-12 08:26:15,754 Epoch 281: total training loss 0.00077
+2024-04-12 08:26:15,754 EPOCH 282
+2024-04-12 08:26:16,256 Epoch 282: total training loss 0.00077
+2024-04-12 08:26:16,257 EPOCH 283
+2024-04-12 08:26:16,760 Epoch 283: total training loss 0.00077
+2024-04-12 08:26:16,760 EPOCH 284
+2024-04-12 08:26:17,269 Epoch 284: total training loss 0.00077
+2024-04-12 08:26:17,269 EPOCH 285
+2024-04-12 08:26:17,773 Epoch 285: total training loss 0.00076
+2024-04-12 08:26:17,773 EPOCH 286
+2024-04-12 08:26:18,275 Epoch 286: total training loss 0.00077
+2024-04-12 08:26:18,275 EPOCH 287
+2024-04-12 08:26:18,783 Epoch 287: total training loss 0.00076
+2024-04-12 08:26:18,783 EPOCH 288
+2024-04-12 08:26:19,282 Epoch 288: total training loss 0.00076
+2024-04-12 08:26:19,282 EPOCH 289
+2024-04-12 08:26:19,771 Epoch 289: total training loss 0.00076
+2024-04-12 08:26:19,771 EPOCH 290
+2024-04-12 08:26:34,007 Validation result at epoch 290, step      290: Val DTW Score:  17.00, loss:   0.0072,  duration: 13.7484s
+2024-04-12 08:26:34,008 Epoch 290: total training loss 0.00076
+2024-04-12 08:26:34,008 EPOCH 291
+2024-04-12 08:26:34,478 Epoch 291: total training loss 0.00076
+2024-04-12 08:26:34,479 EPOCH 292
+2024-04-12 08:26:34,958 Epoch 292: total training loss 0.00076
+2024-04-12 08:26:34,958 EPOCH 293
+2024-04-12 08:26:35,453 Epoch 293: total training loss 0.00076
+2024-04-12 08:26:35,453 EPOCH 294
+2024-04-12 08:26:35,958 Epoch 294: total training loss 0.00076
+2024-04-12 08:26:35,958 EPOCH 295
+2024-04-12 08:26:36,451 Epoch 295: total training loss 0.00076
+2024-04-12 08:26:36,451 EPOCH 296
+2024-04-12 08:26:36,952 Epoch 296: total training loss 0.00075
+2024-04-12 08:26:36,952 EPOCH 297
+2024-04-12 08:26:37,456 Epoch 297: total training loss 0.00075
+2024-04-12 08:26:37,456 EPOCH 298
+2024-04-12 08:26:37,974 Epoch 298: total training loss 0.00075
+2024-04-12 08:26:37,974 EPOCH 299
+2024-04-12 08:26:38,523 Epoch 299: total training loss 0.00075
+2024-04-12 08:26:38,523 EPOCH 300
+2024-04-12 08:26:52,425 Validation result at epoch 300, step      300: Val DTW Score:  17.01, loss:   0.0072,  duration: 13.3947s
+2024-04-12 08:26:52,425 Epoch 300: total training loss 0.00075
+2024-04-12 08:26:52,425 EPOCH 301
+2024-04-12 08:26:52,915 Epoch 301: total training loss 0.00075
+2024-04-12 08:26:52,916 EPOCH 302
+2024-04-12 08:26:53,409 Epoch 302: total training loss 0.00075
+2024-04-12 08:26:53,410 EPOCH 303
+2024-04-12 08:26:53,933 Epoch 303: total training loss 0.00075
+2024-04-12 08:26:53,933 EPOCH 304
+2024-04-12 08:26:54,436 Epoch 304: total training loss 0.00074
+2024-04-12 08:26:54,436 EPOCH 305
+2024-04-12 08:26:54,960 Epoch 305: total training loss 0.00075
+2024-04-12 08:26:54,961 EPOCH 306
+2024-04-12 08:26:55,471 Epoch 306: total training loss 0.00075
+2024-04-12 08:26:55,472 EPOCH 307
+2024-04-12 08:26:55,979 Epoch 307: total training loss 0.00074
+2024-04-12 08:26:55,979 EPOCH 308
+2024-04-12 08:26:56,612 Epoch 308: total training loss 0.00074
+2024-04-12 08:26:56,612 EPOCH 309
+2024-04-12 08:26:57,130 Epoch 309: total training loss 0.00074
+2024-04-12 08:26:57,131 EPOCH 310
+2024-04-12 08:27:11,175 Validation result at epoch 310, step      310: Val DTW Score:  17.05, loss:   0.0071,  duration: 13.5325s
+2024-04-12 08:27:11,176 Epoch 310: total training loss 0.00074
+2024-04-12 08:27:11,176 EPOCH 311
+2024-04-12 08:27:11,708 Epoch 311: total training loss 0.00074
+2024-04-12 08:27:11,708 EPOCH 312
+2024-04-12 08:27:12,236 Epoch 312: total training loss 0.00074
+2024-04-12 08:27:12,236 EPOCH 313
+2024-04-12 08:27:12,737 Epoch 313: total training loss 0.00074
+2024-04-12 08:27:12,737 EPOCH 314
+2024-04-12 08:27:13,254 Epoch 314: total training loss 0.00074
+2024-04-12 08:27:13,254 EPOCH 315
+2024-04-12 08:27:13,751 Epoch 315: total training loss 0.00074
+2024-04-12 08:27:13,752 EPOCH 316
+2024-04-12 08:27:14,249 Epoch 316: total training loss 0.00074
+2024-04-12 08:27:14,249 EPOCH 317
+2024-04-12 08:27:14,751 Epoch 317: total training loss 0.00073
+2024-04-12 08:27:14,751 EPOCH 318
+2024-04-12 08:27:15,264 Epoch 318: total training loss 0.00073
+2024-04-12 08:27:15,264 EPOCH 319
+2024-04-12 08:27:15,800 Epoch 319: total training loss 0.00073
+2024-04-12 08:27:15,800 EPOCH 320
+2024-04-12 08:27:30,141 Validation result at epoch 320, step      320: Val DTW Score:  17.09, loss:   0.0071,  duration: 13.8354s
+2024-04-12 08:27:30,142 Epoch 320: total training loss 0.00073
+2024-04-12 08:27:30,142 EPOCH 321
+2024-04-12 08:27:30,640 Epoch 321: total training loss 0.00073
+2024-04-12 08:27:30,640 EPOCH 322
+2024-04-12 08:27:31,131 Epoch 322: total training loss 0.00073
+2024-04-12 08:27:31,132 EPOCH 323
+2024-04-12 08:27:31,637 Epoch 323: total training loss 0.00073
+2024-04-12 08:27:31,637 EPOCH 324
+2024-04-12 08:27:32,135 Epoch 324: total training loss 0.00073
+2024-04-12 08:27:32,136 EPOCH 325
+2024-04-12 08:27:32,633 Epoch 325: total training loss 0.00073
+2024-04-12 08:27:32,633 EPOCH 326
+2024-04-12 08:27:33,152 Epoch 326: total training loss 0.00073
+2024-04-12 08:27:33,152 EPOCH 327
+2024-04-12 08:27:33,652 Epoch 327: total training loss 0.00073
+2024-04-12 08:27:33,652 EPOCH 328
+2024-04-12 08:27:34,150 Epoch 328: total training loss 0.00073
+2024-04-12 08:27:34,150 EPOCH 329
+2024-04-12 08:27:34,653 Epoch 329: total training loss 0.00073
+2024-04-12 08:27:34,653 EPOCH 330
+2024-04-12 08:27:48,869 Validation result at epoch 330, step      330: Val DTW Score:  17.13, loss:   0.0071,  duration: 13.6671s
+2024-04-12 08:27:48,869 Epoch 330: total training loss 0.00073
+2024-04-12 08:27:48,869 EPOCH 331
+2024-04-12 08:27:49,375 Epoch 331: total training loss 0.00072
+2024-04-12 08:27:49,375 EPOCH 332
+2024-04-12 08:27:49,920 Epoch 332: total training loss 0.00073
+2024-04-12 08:27:49,920 EPOCH 333
+2024-04-12 08:27:50,446 Epoch 333: total training loss 0.00073
+2024-04-12 08:27:50,446 EPOCH 334
+2024-04-12 08:27:50,974 Epoch 334: total training loss 0.00072
+2024-04-12 08:27:50,974 EPOCH 335
+2024-04-12 08:27:51,546 Epoch 335: total training loss 0.00072
+2024-04-12 08:27:51,546 EPOCH 336
+2024-04-12 08:27:52,052 Epoch 336: total training loss 0.00072
+2024-04-12 08:27:52,052 EPOCH 337
+2024-04-12 08:27:52,558 Epoch 337: total training loss 0.00072
+2024-04-12 08:27:52,558 EPOCH 338
+2024-04-12 08:27:53,097 Epoch 338: total training loss 0.00072
+2024-04-12 08:27:53,097 EPOCH 339
+2024-04-12 08:27:53,587 Epoch 339: total training loss 0.00072
+2024-04-12 08:27:53,587 EPOCH 340
+2024-04-12 08:28:07,892 Validation result at epoch 340, step      340: Val DTW Score:  17.21, loss:   0.0071,  duration: 13.7611s
+2024-04-12 08:28:07,893 Epoch 340: total training loss 0.00072
+2024-04-12 08:28:07,893 EPOCH 341
+2024-04-12 08:28:08,369 Epoch 341: total training loss 0.00072
+2024-04-12 08:28:08,370 EPOCH 342
+2024-04-12 08:28:08,855 Epoch 342: total training loss 0.00072
+2024-04-12 08:28:08,856 EPOCH 343
+2024-04-12 08:28:09,344 Epoch 343: total training loss 0.00072
+2024-04-12 08:28:09,344 EPOCH 344
+2024-04-12 08:28:09,832 Epoch 344: total training loss 0.00072
+2024-04-12 08:28:09,832 EPOCH 345
+2024-04-12 08:28:10,320 Epoch 345: total training loss 0.00072
+2024-04-12 08:28:10,320 EPOCH 346
+2024-04-12 08:28:10,819 Epoch 346: total training loss 0.00072
+2024-04-12 08:28:10,819 EPOCH 347
+2024-04-12 08:28:11,305 Epoch 347: total training loss 0.00071
+2024-04-12 08:28:11,305 EPOCH 348
+2024-04-12 08:28:11,797 Epoch 348: total training loss 0.00072
+2024-04-12 08:28:11,797 EPOCH 349
+2024-04-12 08:28:12,294 Epoch 349: total training loss 0.00071
+2024-04-12 08:28:12,294 EPOCH 350
+2024-04-12 08:28:26,229 Validation result at epoch 350, step      350: Val DTW Score:  17.28, loss:   0.0071,  duration: 13.4468s
+2024-04-12 08:28:26,229 Epoch 350: total training loss 0.00071
+2024-04-12 08:28:26,229 EPOCH 351
+2024-04-12 08:28:26,725 Epoch 351: total training loss 0.00071
+2024-04-12 08:28:26,725 EPOCH 352
+2024-04-12 08:28:27,279 Epoch 352: total training loss 0.00071
+2024-04-12 08:28:27,279 EPOCH 353
+2024-04-12 08:28:27,806 Epoch 353: total training loss 0.00071
+2024-04-12 08:28:27,806 EPOCH 354
+2024-04-12 08:28:28,424 Epoch 354: total training loss 0.00071
+2024-04-12 08:28:28,424 EPOCH 355
+2024-04-12 08:28:28,961 Epoch 355: total training loss 0.00071
+2024-04-12 08:28:28,961 EPOCH 356
+2024-04-12 08:28:29,451 Epoch 356: total training loss 0.00071
+2024-04-12 08:28:29,452 EPOCH 357
+2024-04-12 08:28:29,980 Epoch 357: total training loss 0.00071
+2024-04-12 08:28:29,980 EPOCH 358
+2024-04-12 08:28:30,487 Epoch 358: total training loss 0.00071
+2024-04-12 08:28:30,487 EPOCH 359
+2024-04-12 08:28:30,994 Epoch 359: total training loss 0.00070
+2024-04-12 08:28:30,994 EPOCH 360
+2024-04-12 08:28:45,559 Validation result at epoch 360, step      360: Val DTW Score:  17.34, loss:   0.0071,  duration: 14.0136s
+2024-04-12 08:28:45,559 Epoch 360: total training loss 0.00070
+2024-04-12 08:28:45,559 EPOCH 361
+2024-04-12 08:28:46,054 Epoch 361: total training loss 0.00070
+2024-04-12 08:28:46,054 EPOCH 362
+2024-04-12 08:28:46,548 Epoch 362: total training loss 0.00070
+2024-04-12 08:28:46,549 EPOCH 363
+2024-04-12 08:28:47,071 Epoch 363: total training loss 0.00070
+2024-04-12 08:28:47,071 EPOCH 364
+2024-04-12 08:28:47,581 Epoch 364: total training loss 0.00070
+2024-04-12 08:28:47,581 EPOCH 365
+2024-04-12 08:28:48,122 Epoch 365: total training loss 0.00070
+2024-04-12 08:28:48,123 EPOCH 366
+2024-04-12 08:28:48,639 Epoch 366: total training loss 0.00070
+2024-04-12 08:28:48,639 EPOCH 367
+2024-04-12 08:28:49,171 Epoch 367: total training loss 0.00070
+2024-04-12 08:28:49,172 EPOCH 368
+2024-04-12 08:28:49,759 Epoch 368: total training loss 0.00070
+2024-04-12 08:28:49,759 EPOCH 369
+2024-04-12 08:28:50,281 Epoch 369: total training loss 0.00070
+2024-04-12 08:28:50,282 EPOCH 370
+2024-04-12 08:29:05,676 Validation result at epoch 370, step      370: Val DTW Score:  17.36, loss:   0.0071,  duration: 14.8534s
+2024-04-12 08:29:05,676 Epoch 370: total training loss 0.00070
+2024-04-12 08:29:05,676 EPOCH 371
+2024-04-12 08:29:06,279 Epoch 371: total training loss 0.00070
+2024-04-12 08:29:06,279 EPOCH 372
+2024-04-12 08:29:07,082 Epoch 372: total training loss 0.00070
+2024-04-12 08:29:07,083 EPOCH 373
+2024-04-12 08:29:07,699 Epoch 373: total training loss 0.00070
+2024-04-12 08:29:07,700 EPOCH 374
+2024-04-12 08:29:08,260 Epoch 374: total training loss 0.00070
+2024-04-12 08:29:08,260 EPOCH 375
+2024-04-12 08:29:08,810 Epoch 375: total training loss 0.00070
+2024-04-12 08:29:08,810 EPOCH 376
+2024-04-12 08:29:09,346 Epoch 376: total training loss 0.00069
+2024-04-12 08:29:09,347 EPOCH 377
+2024-04-12 08:29:09,887 Epoch 377: total training loss 0.00069
+2024-04-12 08:29:09,887 EPOCH 378
+2024-04-12 08:29:10,437 Epoch 378: total training loss 0.00069
+2024-04-12 08:29:10,437 EPOCH 379
+2024-04-12 08:29:10,977 Epoch 379: total training loss 0.00069
+2024-04-12 08:29:10,977 EPOCH 380
+2024-04-12 08:29:25,163 Validation result at epoch 380, step      380: Val DTW Score:  17.31, loss:   0.0070,  duration: 13.5933s
+2024-04-12 08:29:25,163 Epoch 380: total training loss 0.00069
+2024-04-12 08:29:25,163 EPOCH 381
+2024-04-12 08:29:25,643 Epoch 381: total training loss 0.00069
+2024-04-12 08:29:25,643 EPOCH 382
+2024-04-12 08:29:26,138 Epoch 382: total training loss 0.00069
+2024-04-12 08:29:26,139 EPOCH 383
+2024-04-12 08:29:26,645 Epoch 383: total training loss 0.00069
+2024-04-12 08:29:26,645 EPOCH 384
+2024-04-12 08:29:27,156 Epoch 384: total training loss 0.00069
+2024-04-12 08:29:27,157 EPOCH 385
+2024-04-12 08:29:27,670 Epoch 385: total training loss 0.00069
+2024-04-12 08:29:27,670 EPOCH 386
+2024-04-12 08:29:28,194 Epoch 386: total training loss 0.00069
+2024-04-12 08:29:28,194 EPOCH 387
+2024-04-12 08:29:28,704 Epoch 387: total training loss 0.00069
+2024-04-12 08:29:28,704 EPOCH 388
+2024-04-12 08:29:29,243 Epoch 388: total training loss 0.00069
+2024-04-12 08:29:29,243 EPOCH 389
+2024-04-12 08:29:29,766 Epoch 389: total training loss 0.00068
+2024-04-12 08:29:29,766 EPOCH 390
+2024-04-12 08:29:44,106 Validation result at epoch 390, step      390: Val DTW Score:  17.35, loss:   0.0070,  duration: 13.8175s
+2024-04-12 08:29:44,106 Epoch 390: total training loss 0.00068
+2024-04-12 08:29:44,106 EPOCH 391
+2024-04-12 08:29:44,593 Epoch 391: total training loss 0.00068
+2024-04-12 08:29:44,594 EPOCH 392
+2024-04-12 08:29:45,187 Epoch 392: total training loss 0.00068
+2024-04-12 08:29:45,187 EPOCH 393
+2024-04-12 08:29:45,730 Epoch 393: total training loss 0.00068
+2024-04-12 08:29:45,730 EPOCH 394
+2024-04-12 08:29:46,304 Epoch 394: total training loss 0.00068
+2024-04-12 08:29:46,304 EPOCH 395
+2024-04-12 08:29:46,861 Epoch 395: total training loss 0.00068
+2024-04-12 08:29:46,861 EPOCH 396
+2024-04-12 08:29:47,388 Epoch 396: total training loss 0.00068
+2024-04-12 08:29:47,388 EPOCH 397
+2024-04-12 08:29:47,905 Epoch 397: total training loss 0.00068
+2024-04-12 08:29:47,906 EPOCH 398
+2024-04-12 08:29:48,459 Epoch 398: total training loss 0.00068
+2024-04-12 08:29:48,460 EPOCH 399
+2024-04-12 08:29:49,025 Epoch 399: total training loss 0.00068
+2024-04-12 08:29:49,025 EPOCH 400
+2024-04-12 08:30:04,134 Validation result at epoch 400, step      400: Val DTW Score:  17.37, loss:   0.0070,  duration: 14.5765s
+2024-04-12 08:30:04,134 Epoch 400: total training loss 0.00068
+2024-04-12 08:30:04,134 EPOCH 401
+2024-04-12 08:30:04,682 Epoch 401: total training loss 0.00068
+2024-04-12 08:30:04,682 EPOCH 402
+2024-04-12 08:30:05,251 Epoch 402: total training loss 0.00068
+2024-04-12 08:30:05,251 EPOCH 403
+2024-04-12 08:30:05,808 Epoch 403: total training loss 0.00068
+2024-04-12 08:30:05,809 EPOCH 404
+2024-04-12 08:30:06,381 Epoch 404: total training loss 0.00068
+2024-04-12 08:30:06,381 EPOCH 405
+2024-04-12 08:30:06,951 Epoch 405: total training loss 0.00068
+2024-04-12 08:30:06,951 EPOCH 406
+2024-04-12 08:30:07,550 Epoch 406: total training loss 0.00068
+2024-04-12 08:30:07,550 EPOCH 407
+2024-04-12 08:30:08,113 Epoch 407: total training loss 0.00068
+2024-04-12 08:30:08,113 EPOCH 408
+2024-04-12 08:30:08,708 Epoch 408: total training loss 0.00067
+2024-04-12 08:30:08,708 EPOCH 409
+2024-04-12 08:30:09,256 Epoch 409: total training loss 0.00068
+2024-04-12 08:30:09,256 EPOCH 410
+2024-04-12 08:30:23,632 Validation result at epoch 410, step      410: Val DTW Score:  17.38, loss:   0.0070,  duration: 13.7669s
+2024-04-12 08:30:23,632 Epoch 410: total training loss 0.00067
+2024-04-12 08:30:23,632 EPOCH 411
+2024-04-12 08:30:24,103 Epoch 411: total training loss 0.00067
+2024-04-12 08:30:24,103 EPOCH 412
+2024-04-12 08:30:24,607 Epoch 412: total training loss 0.00068
+2024-04-12 08:30:24,607 EPOCH 413
+2024-04-12 08:30:25,128 Epoch 413: total training loss 0.00067
+2024-04-12 08:30:25,128 EPOCH 414
+2024-04-12 08:30:25,639 Epoch 414: total training loss 0.00067
+2024-04-12 08:30:25,639 EPOCH 415
+2024-04-12 08:30:26,154 Epoch 415: total training loss 0.00067
+2024-04-12 08:30:26,154 EPOCH 416
+2024-04-12 08:30:26,663 Epoch 416: total training loss 0.00067
+2024-04-12 08:30:26,663 EPOCH 417
+2024-04-12 08:30:27,182 Epoch 417: total training loss 0.00067
+2024-04-12 08:30:27,182 EPOCH 418
+2024-04-12 08:30:27,703 Epoch 418: total training loss 0.00067
+2024-04-12 08:30:27,703 EPOCH 419
+2024-04-12 08:30:28,236 Epoch 419: total training loss 0.00067
+2024-04-12 08:30:28,237 EPOCH 420
+2024-04-12 08:30:42,770 Validation result at epoch 420, step      420: Val DTW Score:  17.40, loss:   0.0070,  duration: 14.0121s
+2024-04-12 08:30:42,770 Epoch 420: total training loss 0.00067
+2024-04-12 08:30:42,770 EPOCH 421
+2024-04-12 08:30:43,302 Epoch 421: total training loss 0.00067
+2024-04-12 08:30:43,302 EPOCH 422
+2024-04-12 08:30:43,849 Epoch 422: total training loss 0.00067
+2024-04-12 08:30:43,849 EPOCH 423
+2024-04-12 08:30:44,387 Epoch 423: total training loss 0.00067
+2024-04-12 08:30:44,388 EPOCH 424
+2024-04-12 08:30:44,916 Epoch 424: total training loss 0.00067
+2024-04-12 08:30:44,916 EPOCH 425
+2024-04-12 08:30:45,484 Epoch 425: total training loss 0.00067
+2024-04-12 08:30:45,484 EPOCH 426
+2024-04-12 08:30:46,028 Epoch 426: total training loss 0.00067
+2024-04-12 08:30:46,028 EPOCH 427
+2024-04-12 08:30:46,562 Epoch 427: total training loss 0.00067
+2024-04-12 08:30:46,562 EPOCH 428
+2024-04-12 08:30:47,091 Epoch 428: total training loss 0.00067
+2024-04-12 08:30:47,091 EPOCH 429
+2024-04-12 08:30:47,655 Epoch 429: total training loss 0.00067
+2024-04-12 08:30:47,656 EPOCH 430
+2024-04-12 08:31:02,986 Validation result at epoch 430, step      430: Val DTW Score:  17.43, loss:   0.0070,  duration: 14.7433s
+2024-04-12 08:31:02,986 Epoch 430: total training loss 0.00066
+2024-04-12 08:31:02,986 EPOCH 431
+2024-04-12 08:31:03,458 Epoch 431: total training loss 0.00066
+2024-04-12 08:31:03,458 EPOCH 432
+2024-04-12 08:31:04,004 Epoch 432: total training loss 0.00066
+2024-04-12 08:31:04,004 EPOCH 433
+2024-04-12 08:31:04,559 Epoch 433: total training loss 0.00066
+2024-04-12 08:31:04,559 EPOCH 434
+2024-04-12 08:31:05,105 Epoch 434: total training loss 0.00066
+2024-04-12 08:31:05,105 EPOCH 435
+2024-04-12 08:31:05,669 Epoch 435: total training loss 0.00066
+2024-04-12 08:31:05,669 EPOCH 436
+2024-04-12 08:31:06,218 Epoch 436: total training loss 0.00066
+2024-04-12 08:31:06,218 EPOCH 437
+2024-04-12 08:31:06,776 Epoch 437: total training loss 0.00066
+2024-04-12 08:31:06,776 EPOCH 438
+2024-04-12 08:31:07,315 Epoch 438: total training loss 0.00066
+2024-04-12 08:31:07,315 EPOCH 439
+2024-04-12 08:31:07,879 Epoch 439: total training loss 0.00066
+2024-04-12 08:31:07,879 EPOCH 440
+2024-04-12 08:31:22,690 Validation result at epoch 440, step      440: Val DTW Score:  17.46, loss:   0.0070,  duration: 14.2628s
+2024-04-12 08:31:22,690 Epoch 440: total training loss 0.00066
+2024-04-12 08:31:22,690 EPOCH 441
+2024-04-12 08:31:23,160 Epoch 441: total training loss 0.00066
+2024-04-12 08:31:23,160 EPOCH 442
+2024-04-12 08:31:23,677 Epoch 442: total training loss 0.00066
+2024-04-12 08:31:23,677 EPOCH 443
+2024-04-12 08:31:24,222 Epoch 443: total training loss 0.00066
+2024-04-12 08:31:24,223 EPOCH 444
+2024-04-12 08:31:24,751 Epoch 444: total training loss 0.00066
+2024-04-12 08:31:24,751 EPOCH 445
+2024-04-12 08:31:25,306 Epoch 445: total training loss 0.00066
+2024-04-12 08:31:25,307 EPOCH 446
+2024-04-12 08:31:25,843 Epoch 446: total training loss 0.00066
+2024-04-12 08:31:25,843 EPOCH 447
+2024-04-12 08:31:26,388 Epoch 447: total training loss 0.00066
+2024-04-12 08:31:26,388 EPOCH 448
+2024-04-12 08:31:26,915 Epoch 448: total training loss 0.00066
+2024-04-12 08:31:26,916 EPOCH 449
+2024-04-12 08:31:27,446 Epoch 449: total training loss 0.00066
+2024-04-12 08:31:27,447 EPOCH 450
+2024-04-12 08:31:42,549 Validation result at epoch 450, step      450: Val DTW Score:  17.46, loss:   0.0070,  duration: 14.5712s
+2024-04-12 08:31:42,549 Epoch 450: total training loss 0.00065
+2024-04-12 08:31:42,549 EPOCH 451
+2024-04-12 08:31:43,047 Epoch 451: total training loss 0.00065
+2024-04-12 08:31:43,047 EPOCH 452
+2024-04-12 08:31:43,594 Epoch 452: total training loss 0.00065
+2024-04-12 08:31:43,594 EPOCH 453
+2024-04-12 08:31:44,125 Epoch 453: total training loss 0.00065
+2024-04-12 08:31:44,125 EPOCH 454
+2024-04-12 08:31:44,663 Epoch 454: total training loss 0.00065
+2024-04-12 08:31:44,663 EPOCH 455
+2024-04-12 08:31:45,720 Epoch 455: total training loss 0.00065
+2024-04-12 08:31:45,720 EPOCH 456
+2024-04-12 08:31:46,300 Epoch 456: total training loss 0.00065
+2024-04-12 08:31:46,300 EPOCH 457
+2024-04-12 08:31:46,864 Epoch 457: total training loss 0.00065
+2024-04-12 08:31:46,864 EPOCH 458
+2024-04-12 08:31:47,516 Epoch 458: total training loss 0.00065
+2024-04-12 08:31:47,516 EPOCH 459
+2024-04-12 08:31:48,074 Epoch 459: total training loss 0.00065
+2024-04-12 08:31:48,074 EPOCH 460
+2024-04-12 08:32:03,148 Validation result at epoch 460, step      460: Val DTW Score:  17.61, loss:   0.0070,  duration: 14.1807s
+2024-04-12 08:32:03,148 Epoch 460: total training loss 0.00065
+2024-04-12 08:32:03,148 EPOCH 461
+2024-04-12 08:32:03,617 Epoch 461: total training loss 0.00065
+2024-04-12 08:32:03,617 EPOCH 462
+2024-04-12 08:32:04,131 Epoch 462: total training loss 0.00065
+2024-04-12 08:32:04,131 EPOCH 463
+2024-04-12 08:32:04,660 Epoch 463: total training loss 0.00065
+2024-04-12 08:32:04,660 EPOCH 464
+2024-04-12 08:32:05,188 Epoch 464: total training loss 0.00065
+2024-04-12 08:32:05,188 EPOCH 465
+2024-04-12 08:32:05,720 Epoch 465: total training loss 0.00064
+2024-04-12 08:32:05,720 EPOCH 466
+2024-04-12 08:32:06,311 Epoch 466: total training loss 0.00065
+2024-04-12 08:32:06,311 EPOCH 467
+2024-04-12 08:32:06,893 Epoch 467: total training loss 0.00065
+2024-04-12 08:32:06,893 EPOCH 468
+2024-04-12 08:32:07,471 Epoch 468: total training loss 0.00064
+2024-04-12 08:32:07,472 EPOCH 469
+2024-04-12 08:32:08,043 Epoch 469: total training loss 0.00064
+2024-04-12 08:32:08,043 EPOCH 470
+2024-04-12 08:32:23,537 Validation result at epoch 470, step      470: Val DTW Score:  17.62, loss:   0.0069,  duration: 14.9271s
+2024-04-12 08:32:23,537 Training ended since minimum lr 0.000200 was reached.
+2024-04-12 08:32:23,538 Best validation result at step       70:  15.71 dtw.
